@@ -11,6 +11,8 @@ public class GamePauseScript : MonoBehaviour
     {
 
         if (Input.GetKeyDown(KeyCode.Escape)) {
+
+
             SceneManager.LoadScene("Menu");
         }
 

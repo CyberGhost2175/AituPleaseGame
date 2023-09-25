@@ -532,7 +532,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83d384e65ca4843429d80aa4870e5edc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LoadLevel: Level1
+  LoadLevel: SampleScene
   loadingScreen: {fileID: 0}
 --- !u!1 &190986789
 GameObject:
@@ -2698,11 +2698,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 663694141}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83d384e65ca4843429d80aa4870e5edc, type: 3}
+  m_Script: {fileID: 11500000, guid: 6bd389dfa39d56842aa973a11d920b9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LoadLevel: Level1
-  loadingScreen: {fileID: 1886398525}
 --- !u!82 &663694147
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4663,8 +4661,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 663694146}
-        m_TargetAssemblyTypeName: LoadingScreen, Assembly-CSharp
-        m_MethodName: Load
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: PlayGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
